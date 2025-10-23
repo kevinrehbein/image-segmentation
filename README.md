@@ -83,7 +83,7 @@ python3 main.py --input ./example.jpg --method hsv --target green
 **Exemplo 2: Segmentar o céu (azul) usando HSV**
 
 ```bash
-python main.py --input example.jpg --method hsv --target blue
+python3 main.py --input example.jpg --method hsv --target blue
 ```
 
 - O script usará os limites padrão para 'blue' (H: 90-130, S: 0-255, V: 0-255).
