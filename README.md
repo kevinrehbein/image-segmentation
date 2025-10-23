@@ -91,7 +91,7 @@ python main.py --input example.jpg --method hsv --target blue
 **Exemplo 3: Segmentar áreas escuras usando Threshold (Invertido)**
 
 ```bash
-python main.py --input example.jpg --method threshold --thresh-val 127 --thresh-inv
+python3 main.py --input example.jpg --method threshold --thresh-val 127 --thresh-inv
 ```
 
 - Isso converterá a imagem para escala de cinza e tornará brancos todos os pixels com valor de brilho inferior a 127.
@@ -100,5 +100,5 @@ python main.py --input example.jpg --method threshold --thresh-val 127 --thresh-
 (Para um verde mais específico, talvez mais escuro e mais saturado)
 
 ```bash
-python main.py --input example.jpg --method hsv --hmin 30 --hmax 70 --smin 50 --vmin 50
+python3 main.py --input example.jpg --method hsv --hmin 30 --hmax 70 --smin 50 --vmin 50
 ```
