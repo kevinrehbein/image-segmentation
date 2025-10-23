@@ -65,7 +65,7 @@ def segment_by_threshold(image, args):
 
     thresh_value = args.thresh_val
     
-    ret, mask = cv2.threshold(
+    mask = cv2.threshold(
         gray_image,    # Imagem de entrada 
         thresh_value,  # Valor do limiar
         255,           # Valor maximo
